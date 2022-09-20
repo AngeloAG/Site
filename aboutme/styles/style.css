@@ -1,0 +1,47 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-color: rgba(247, 245, 245, 0.87);
+}
+
+p {
+  font-size: large;
+}
+
+.center-images {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+#profile-div {
+  width: 20%;
+  margin: auto;
+}
+
+#info-div {
+  width: 65%;
+  background-color: rgb(233, 235, 236);
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-div {
+  margin: auto;
+}
+
+#master {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 20px 10px 40px 10px;
+  border-radius: 25px;
+}
