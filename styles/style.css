@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Ubuntu&display=swap");
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #dad7cd;
+  --secondary-color: #a3b18a;
+  --accent1-color: #588157;
+  --accent2-color: #3a5a40;
+  --accent3-color: #344e41;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Ubuntu";
+  --paragraph-font: "Roboto Mono", Helvetica, sans-serif;
+
+  --nav-link-color: #344e41;
+  --nav-background-color: #dad7cd;
+  --nav-hover-link-color: #3a5a40;
+  --nav-hover-background-color: #a3b18a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+a {
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding: 0.5em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+#main-container {
+  width: 80%;
+  /*background-color: var(--primary-color);*/
+  padding: 15px 25px;
+}
+
+.centered-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-corners {
+  border-radius: 25px;
+}
+
+.right-corners-rounded {
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.left-corners-rounded {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.head {
+  width: 90%;
+}
