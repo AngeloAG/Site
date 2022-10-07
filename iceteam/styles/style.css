@@ -1,0 +1,41 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  color: white;
+}
+
+span {
+  display: table;
+  margin: 0 auto;
+}
+
+#list {
+  margin: 0 auto;
+  width: 40%;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
+#quote {
+  width: 30%;
+  color: white;
+  font-size: x-large;
+}
+
+li {
+  font-weight: bolder;
+}
+
+.white-text {
+  color: white;
+}
